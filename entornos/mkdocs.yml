@@ -1,0 +1,5 @@
+site_name: Entornos de Desarrollo
+site_description: Documentación de Entornos de Desarrollo
+nav:
+  - Inicio: index.md
+  - Info: about.md
