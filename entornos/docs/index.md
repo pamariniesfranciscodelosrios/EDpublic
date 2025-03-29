@@ -1,17 +1,8 @@
-# Welcome to MkDocs
+# Módulo Entornos Desarrollo
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Materiales para el Módulo Desarrollo de Aplicaciones Web Entorno Servidor.
 
-## Commands
+* 1º DAM. IES Francisco de los Ríos.
+* Curso 2024/25
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+![1743227493712](image/index/1743227493712.png)
