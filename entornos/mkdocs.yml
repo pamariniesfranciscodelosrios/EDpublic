@@ -28,4 +28,4 @@ theme:
 plugins:
   exclude:
       glob:
-        #- Referencias/*
+        Referencias/*
