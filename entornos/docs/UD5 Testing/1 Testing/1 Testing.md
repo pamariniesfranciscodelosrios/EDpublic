@@ -1,8 +1,20 @@
 # UD5 Testing
 
+![1743590130583](image/1Testing/1743590130583.png)
+
 ## Introducción
 
 ![1743260143123](image/1Testing/1743260143123.png)
+
+## Offtopic: "Aprender a aprender"
+
+> En el siglo XXI, la evolución de la tecnología condiciona los estándares sociales a los que los individuos deben hacer frente. Como consecuencia de ello, es necesario generar cambios en los cimientos de la educación, desarrollando en el alumnado competencias, como  **aprender a aprender** , para que sigan aprendiendo de forma autónoma a lo largo de toda la vida
+
+![1743590399448](image/1Testing/1743590399448.png)
+
+
+* **Enlace a artículo ([enlace](https://www.hablamosdeeducacion.es/actualidad/aprender-a-aprender-competencia-educacion-futuro))**
+
 
 ## Índice
 
@@ -38,12 +50,9 @@ En nuestro proceso de testeo, vamos a crear archivos README dentro del proyecto 
 
 Podemos ayudarnos de un plugin llamado MARKDOWN EDITOR
 
-
 ![1743484077024](image/1Testing/1743484077024.png)
 
 ![1743484658904](image/1Testing/1743484658904.png)
-
-
 
 ## ¿Qué es un archivo readme, y para qué sirve?
 
@@ -123,8 +132,6 @@ Este proyecto está bajo la licencia [CC-BY-SA.
 
 ```
 
-
-
 ## Mapa Conceptual
 
 ![1743342601985](image/1Testing/1743342601985.png)
@@ -157,6 +164,8 @@ Copia y pega en tu README los puntos de esta unidad:
 5. CI/CD
 6. Calidad
 7. Referencias
+
+Puedes buscar en internet [ejemplos de documentación como este.](https://github.com/djaque/project-task)
 
 ## Enlaces
 
