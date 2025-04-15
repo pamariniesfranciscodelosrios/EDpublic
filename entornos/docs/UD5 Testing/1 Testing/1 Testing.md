@@ -12,9 +12,7 @@
 
 ![1743590399448](image/1Testing/1743590399448.png)
 
-
 * **Enlace a artículo ([enlace](https://www.hablamosdeeducacion.es/actualidad/aprender-a-aprender-competencia-educacion-futuro))**
-
 
 ## Índice
 
@@ -22,7 +20,7 @@
 
 ## Temporalización
 
-5-6 sesiones de una hora.
+4-5 sesiones de una hora.
 
 Grupo 1 Dual
 
@@ -30,9 +28,7 @@ Grupo 1 Dual
 
 Grupo 2 Dual
 
-![1743260402890](image/1Testing/1743260402890.png)
-
-Grupo completo:
+![1744610514018](image/1Testing/1744610514018.png)
 
 ## ¿Qué es?
 
@@ -41,96 +37,6 @@ Grupo completo:
 ## ¿Son importantes las pruebas?
 
 ![1743261069461](image/1Testing/1743261069461.png)
-
-## Documetación
-
-¿Cómo documentamos el README.md?
-
-En nuestro proceso de testeo, vamos a crear archivos README dentro del proyecto con la documentación del proceso, capturas, enlaces utilizados, etc.
-
-Podemos ayudarnos de un plugin llamado MARKDOWN EDITOR
-
-![1743484077024](image/1Testing/1743484077024.png)
-
-![1743484658904](image/1Testing/1743484658904.png)
-
-## ¿Qué es un archivo readme, y para qué sirve?
-
-El cual nos va a facilitar hacer la documentación en Markdown más fácilmente y establecer títulos, subtítulos, enlaces, negrita, apartados, código, etc.
-
-Los archivos  *readme* , a menudo creados como *readme.txt* o  *readme.md* , suelen contener **información importante** sobre el sistema, proyecto o *software* al que se refieren. Para que los usuarios puedan encontrar fácilmente el archivo de un vistazo, se recomienda ubicarlo en el nivel superior del directorio.
-
-[(Enlace artículo IONOS)](https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/archivo-readme/#:~:text=Los%20archivos%20readme%2C%20a%20menudo,el%20nivel%20superior%20del%20directorio.)
-
-## Código básico para un proyecto:
-
-Puedes estructurar un proyecto básico con la siguiente estructura, en nuestro caso  vamos a documentar el aprendizaje de la unidad5 Testing
-
-```markdown
-# Ejemplo de Readme.md para proyecto:
-
-**Proyecto Java: Gestor de Tareas**
-
-## Descripción
-
-Este proyecto es una aplicación sencilla de consola escrita en Java que permite gestionar tareas. Los usuarios pueden agregar, listar y marcar tareas como completadas.
-
-## Características
-
-* Agregar nuevas tareas
-* Listar tareas pendientes
-* Marcar tareas como completadas
-* Guardado de tareas en un archivo de texto
-
-## Requisitos
-
-* Java 11 o superior
-* IDE como IntelliJ IDEA, Eclipse o VS Code
-* (Opcional) Maven o Gradle para gestionar dependencias
-
-## Instalación y Ejecución
-
-1. **Clonar el repositorio**
-   ```bash
-   git clone https://github.com/usuario/gestor-tareas-java.git
-   cd gestor-tareas-java
-```
-
-2. **Compilar el proyecto**
-   ```bash
-   javac src/com/proyecto/Main.java -d bin
-   ```
-3. **Ejecutar la aplicación**
-   ```bash
-   java -cp bin com.proyecto.Main
-   ```
-
-## Tecnologías
-
-* Java SE
-* Manejo de archivos con `File` y `BufferedReader/Writer`
-* Uso de `ArrayList` para gestionar las tareas
-
-## Ejemplo de Uso
-
-```
-Bienvenido al Gestor de Tareas
-1. Agregar tarea
-2. Listar tareas
-3. Marcar como completada
-4. Salir
-Selecciona una opción: 1
-Introduce el nombre de la tarea: "Estudiar UML"
-Tarea agregada con éxito.
-```
-
-## Licencia
-
-Este proyecto está bajo la licencia [CC-BY-SA.
-
-```
-
-```
 
 ## Mapa Conceptual
 
@@ -149,21 +55,6 @@ Este proyecto está bajo la licencia [CC-BY-SA.
 * El repositorio debe ser privado y añadir a *pamarin@iesfranciscodelosrios.es* como colaborador.
 * Copia y pega el **enlace** a tu repositorio dentro de tu carpeta UD5 de Drive, en un documento que ponga por ejemplo documentacionUD5,
 * Sube el **enlace con la documentación** a tu repositorio también  a Moodle
-* Puedes ver un ejemplo aquí: [Repositorio Entornos Desarrollo](https://github.com/pamariniesfranciscodelosrios/EntornosDesarrollo/tree/main/dam/ed)
-
-## Estructura para documentar est unidad
-
-Copia y pega en tu README los puntos de esta unidad:
-
-* Introducción, autoría.
-
-1. Testing
-2. Pruebas
-3. Debug
-4. Framework
-5. CI/CD
-6. Calidad
-7. Referencias
 
 Puedes buscar en internet [ejemplos de documentación como este.](https://github.com/djaque/project-task)
 
