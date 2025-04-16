@@ -29,3 +29,4 @@ plugins:
   exclude:
       glob:
         Referencias/*
+        UD6 Optimización Documentacion/*

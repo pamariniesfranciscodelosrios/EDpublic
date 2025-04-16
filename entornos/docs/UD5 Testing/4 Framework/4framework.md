@@ -38,6 +38,15 @@ En la siguiente tabla tenemos un ejemplo de casos de prueba para un método que 
 
 ![1744629913312](image/4framework/1744629913312.png)
 
+![1744748064228](image/4framework/1744748064228.png)
+
+
+![1744748093190](image/4framework/1744748093190.png)
+
+![1744748166404](image/4framework/1744748166404.png)
+
+
+
 ## Creamos un proyecto "Testeando"
 
 Cambiamos la ruta a un proyecto nuevo llamado **Testeando** dentro de la UD5 donde crearemos los diferentes clases de Test.
@@ -47,6 +56,8 @@ Cambiamos la ruta a un proyecto nuevo llamado **Testeando** dentro de la UD5 don
 El código que necesitas está en Moodle.
 
 ![1744629042222](image/4framework/1744629042222.png)
+
+Está documentado en Ejemplos/Calculadora
 
 ## 4.2. TDD
 
@@ -66,7 +77,7 @@ El código que necesitas está en Moodle.
 
 En este ejemplo guiado voy a crear una clase llamada Pila. No voy a usar ninguna estructura compleja que ya me proporcione las librerías de JAVA.
 
-##### (Ver en Moodle)
+##### Ver en Moodle y subirlo al repositorio
 
 ## Referencias.
 
