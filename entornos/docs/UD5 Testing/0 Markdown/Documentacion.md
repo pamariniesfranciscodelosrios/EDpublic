@@ -128,6 +128,18 @@ Para ver el archivo como si estuvieras en GitHub:
 ¿Te gustaría que prepare una plantilla editable basada en tu proyecto actual? Puedo ayudarte a generarla automáticamente con solo decirme el nombre del proyecto y qué secciones quieres que tenga.
 ```
 
+## Objetivo/tarea de la unidad
+
+* A lo largo del tema, aprenderás conceptos de depurado y pruebas de programas.
+* Vamos a **documentar el proceso**,en un archivo llamado **README.md,** haciendo capturas, enlazando artículos consultados, etc y apuntando lo más importante en nuestro archivo readme para que no se nos pase.
+* No uses la IA en tu readme y que sean conclusiones y anotaciones personales.
+  * **Si se detecta plagio o uso de IA no se evaluará.**
+* El repositorio debe ser privado y añadir a *pamarin@iesfranciscodelosrios.es* como colaborador.
+* Copia y pega el **enlace** a tu repositorio dentro de tu carpeta UD5 de Drive, en un documento que ponga por ejemplo documentacionUD5,
+* Sube el **enlace con la documentación** a tu repositorio también  a Moodle
+
+Puedes buscar en internet [ejemplos de documentación como este.](https://github.com/djaque/project-task)
+
 ## HAZLO TU: Estructura para documentar esta unidad
 
 Copia y pega en tu README los puntos de esta unidad.

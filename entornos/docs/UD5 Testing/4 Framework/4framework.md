@@ -40,12 +40,9 @@ En la siguiente tabla tenemos un ejemplo de casos de prueba para un método que 
 
 ![1744748064228](image/4framework/1744748064228.png)
 
-
 ![1744748093190](image/4framework/1744748093190.png)
 
 ![1744748166404](image/4framework/1744748166404.png)
-
-
 
 ## Creamos un proyecto "Testeando"
 
@@ -77,7 +74,12 @@ Está documentado en Ejemplos/Calculadora
 
 En este ejemplo guiado voy a crear una clase llamada Pila. No voy a usar ninguna estructura compleja que ya me proporcione las librerías de JAVA.
 
-##### Ver en Moodle y subirlo al repositorio
+##### Actividad: Ver en Moodle, hacer el ejemplo y subirlo al repositorio
+
+## **Actividad.** 
+
+* **COMENTA BREVEMENTE EN EL README Cual ha sido el objetivo principal del TDD.** 
+
 
 ## Referencias.
 

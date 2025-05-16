@@ -52,7 +52,6 @@ Ahora se llama SonarQube
 
 ![1744750889298](image/6OptimizacionDocumentacion/1744750889298.png)
 
-
 #### Configuración SONARQUBE
 
 ![1744751017708](image/6OptimizacionDocumentacion/1744751017708.png)

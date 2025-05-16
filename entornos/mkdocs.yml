@@ -28,5 +28,8 @@ theme:
 plugins:
   exclude:
       glob:
-        Referencias/*
-        UD6 Optimización Documentacion/*
+      - Referencias/*
+      - UD6_Optimización/*
+      #- UD5_HerramientasWeb/*
+        
+        
