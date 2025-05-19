@@ -334,17 +334,6 @@
         
       
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Taller PHP
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -354,34 +343,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#que-veremos" class="md-nav__link">
-    <span class="md-ellipsis">
-      ¿Qué veremos?
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
       
     </li>
   
@@ -1326,23 +1287,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#que-veremos" class="md-nav__link">
-    <span class="md-ellipsis">
-      ¿Qué veremos?
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -1357,10 +1301,89 @@
 
 
 <h1 id="taller-php">Taller PHP</h1>
-<p><img alt="1747405926253" src="../image/intro/1747405926253.png" /></p>
-<p><a href="https://www.diadeinternet.org/2025/?">Enlace</a></p>
-<h2 id="que-veremos">¿Qué veremos?</h2>
-<p>Presentación</p>
+<p><a href="https://www.diadeinternet.org/2025/?">DÍA DE INTERNET Enlace</a></p>
+<h1 id="instrucciones">Instrucciones</h1>
+<h2 id="reto-1-preparar">Reto 1 Preparar</h2>
+<p><img alt="1747555648300" src="../image/intro/1747555648300.png" /></p>
+<ul>
+<li>Descarga los archivos (<a href="https://drive.google.com/file/d/1NKEyBh2ROHjg_Uj2IQ8xIRNIRs7zaCKh/view?usp=sharing">enlace descarga</a>)</li>
+<li>Ubícalos descomprimidos en <strong>XAMPP</strong>/<strong>HTDOCS (C:\xampp\htdocs)</strong></li>
+</ul>
+<p><img alt="1747555716542" src="../image/intro/1747555716542.png" /></p>
+<p><img alt="1747555751929" src="../image/intro/1747555751929.png" /></p>
+<p>IMPORTANTE! Extraer en HTDOCS</p>
+<p><img alt="1747556168558" src="../image/intro/1747556168558.png" /></p>
+<h2 id="reto-2-editar">Reto 2 Editar</h2>
+<p>Fichero <strong>index.php</strong></p>
+<details class="success">
+<summary>Código corregido</summary>
+<p><code>&lt;a href="actualizar_usuario.php?id=&lt;?php echo $usuario['id']; ?&gt;"&gt;</code><strong>Editar</strong> <code>&lt;/a&gt;</code></p>
+</details>
+<p><img alt="1747581831176" src="../image/intro/1747581831176.png" /></p>
+<h2 id="reto-3-add-user">Reto 3 Add user</h2>
+<p>Fichero <strong>agregar_usuario.php</strong></p>
+<details class="success">
+<summary>Código corregido</summary>
+<p><code>VALUES (:username, :password, :nombre, :email, :rol)');</code></p>
+</details>
+<p><img alt="1747582221860" src="../image/intro/1747582221860.png" /></p>
+<h2 id="reto-4-redirigir">Reto 4 Redirigir</h2>
+<p>Fichero <strong>agregar_usuario</strong>.php</p>
+<details class="success">
+<summary>Código</summary>
+<p><code>header('Location: index.php');</code></p>
+</details>
+<h2 id="reto-5">Reto 5</h2>
+<p>Fichero <strong>agregar_usuario.php</strong></p>
+<details class="success">
+<summary>Código corregido</summary>
+<p><code>if ($result-&gt;fetchArray())</code></p>
+</details>
+<p><img alt="1747632767320" src="../image/intro/1747632767320.png" /></p>
+<h2 id="reto-6">Reto 6</h2>
+<p>Fichero <strong>login.php</strong></p>
+<details class="success">
+<summary>Código corregido</summary>
+<p><code>$cookie_value = "GALLETA_" . bin2hex(random_bytes(3));</code></p>
+</details>
+<p>Debes salir y entrar de nuevo, si no se cambia.. ya veremos por qué.</p>
+<h2 id="reto-7">Reto 7</h2>
+<p>Fichero <strong>login.php (arriba)</strong></p>
+<details class="success">
+<summary>Código que necesitas</summary>
+<p><code>setcookie("galleta_inventada", "Invent");</code></p>
+</details>
+<p>Fichero <strong>index.php (línea 60 aprox)</strong></p>
+<details class="success">
+<summary>Código que necesitas</summary>
+<p><code>&lt;p&gt;&lt;strong&gt;Cookie de visitante:&lt;/strong&gt; &lt;?php echo $_COOKIE['galleta_inventada'] ?? 'No disponible'; ?&gt;&lt;/p&gt;</code></p>
+</details>
+<h2 id="reto-8">Reto 8</h2>
+<p>Fichero <strong>index.php</strong></p>
+<details class="success">
+<summary>Código que necesitas</summary>
+<p><code>&lt;p&gt;&lt;strong&gt;VARIABLE SERVER PHP SELF:&lt;/strong&gt; &lt;?php echo $_SERVER['PHP_SELF']; ?&gt;&lt;/p&gt;</code></p>
+</details>
+<h2 id="reto-9">Reto 9</h2>
+<p>Fichero <strong>index.php</strong></p>
+<details class="success">
+<summary>Código que necesitas</summary>
+<p><code>&lt;p&gt;&lt;strong&gt;Mi sesión:&lt;/strong&gt; &lt;?php echo htmlspecialchars($_SESSION['taller']); ?&gt;&lt;/p&gt;</code></p>
+</details>
+<p>Pero anters de lo anterior, necesitarás definir esa variable de sesión en el fichero <strong>login.php</strong></p>
+<details class="success">
+<summary>Código que necesitas</summary>
+<p><code>$_SESSION['taller'] = 'Variable sesión con cadena de texto de nuestro taller PHP';</code></p>
+</details>
+<h2 id="reto-10">Reto 10</h2>
+<p>Fichero <strong>logout.php</strong></p>
+<details class="success">
+<summary>Código corregido</summary>
+<p>Sólo necesitas descomentar algunos bloques de código (igual que Java /<em> </em>/)</p>
+</details>
+<p><img alt="1747634004865" src="../image/intro/1747634004865.png" /></p>
+<p>Buen trabajo!</p>
+<p><img alt="1747634046473" src="../image/intro/1747634046473.png" /></p>
 
 
 
