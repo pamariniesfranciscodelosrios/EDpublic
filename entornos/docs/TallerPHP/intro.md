@@ -1,4 +1,4 @@
-# Taller PHP
+## Taller PHP
 
 [DÍA DE INTERNET Enlace](https://www.diadeinternet.org/2025/?)
 
