@@ -20,3 +20,114 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 ## Ejecutar y actualizar
 
 mkdocs gh-deploy
+
+
+## Project layout
+
+```
+mkdocs.yml    # The configuration file.
+docs/
+    index.md  # The documentation homepage.
+    ...       # Other markdown pages, images and other files.
+```
+
+!!!icon
+Probando los amonitions
+
+!!! note
+
+```
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+massa, nec semper lorem quam in massa.
+```
+## exclude
+In your project, add a plugin configuration to mkdocs.yml:
+
+plugins:
+  - exclude:
+      glob:
+        - exclude/this/path/*
+        - "*.tmp"
+        - "*.pdf"
+        - "*.gz"
+      regex:
+        - '.*\.(tmp|bin|tar)$'
+        - 
+## Titulo 3 probando imágenes
+
+![](assets/test1.png)
+
+Ve a la página
+See my [UD1](../ud1_arquitectura/readme.md) page for details.
+
+!!! note "Probando"
+
+    Hola esto es una nota
+
+!!! note "Phasellus posuere in sem ut cursus"
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.
+
+## Ahora aquí viene un título
+
+!!! note "Segunda nota"
+
+!!! alert
+
+    `<p>`Lorem ipsum dolor sit amet. Nam odit perspiciatis eos consequatur quos ea sint architecto et quia nihil? Sed dolores labore est voluptatem rerum eum architecto repellendus. Aut vero nostrum At voluptatibus voluptatem et odit expedita est enim omnis est provident officiis ad tempore distinctio aut dolorem velit. `</p><p>`Quo iste voluptatum qui dicta amet in quia quasi! Eum numquam omnis eos quos veniam sit fugiat inventore et saepe totam. Qui adipisci cumque sed nihil corporis libero ad delectus obcaecati 33 sequi rerum sit Quis tempore ex nihil omnis est reprehenderit vitae? Ab laudantium beatae vel rerum animi At optio modi. `</p>`
+
+!!! info inline end "Lorem ipsum"
+
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit. Nulla et euismod nulla.
+    Curabitur feugiat, tortor non consequat
+    finibus, justo purus auctor massa, nec
+    semper lorem quam in massa.
+
+## Ahora aquí viene un título
+
+!!! info "Lorem ipsum"
+
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit. Nulla et euismod nulla.
+    Curabitur feugiat, tortor non consequat
+    finibus, justo purus auctor massa, nec
+    semper lorem quam in massa.
+
+## Success
+
+!!! success "Lorem ipsum dolor sit amet, consectet"
+
+    asdad
+
+    adasd
+
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit. Nulla et euismod nulla.
+    Curabitur feugiat, tortor non consequat
+    finibus, justo purus auctor massa, nec
+    semper lorem quam in massa.
+
+asdasd
+
+## nota que se expande
+
+??? note "Se expande nota"
+
+    **Criterios de Evaluación**
+    > *  A
+
+    Se han caractesdf
+
+rizasd
+
+asdasd
+
+> *  A Se han caracteriz
+
+Una de las arquitecturas de software más utilizadas en informática es la llamada **arquitectura cliente / servidor** . En este tipo de arquitectura hay una aplicación que hace peticiones (el **cliente** ) y otra aplicación que está a la espera de recibir esas peticiones y, cuando las recibe, procesarlas y responder (el **servidor** ).
+
+> *  A Se han caracteriz
